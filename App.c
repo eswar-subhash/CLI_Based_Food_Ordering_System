@@ -5,7 +5,7 @@
 #define MAX_USERS 100
 #define MAX_ITEMS 50
 #define MAX_CART 10
-#define ADMIN_PASSWORD "Rishik@Admin"
+#define ADMIN_PASSWORD "Eswar@Admin"
 typedef struct {
     int id;
     char name[50];
