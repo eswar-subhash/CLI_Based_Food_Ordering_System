@@ -49,26 +49,21 @@ This ensures data is retained even after the program is closed.
 ├── orders.dat # Stored order records
 └── README.md # Project documentation
 
-yaml
-Copy code
 
 ---
 
 ## 🖥️ How to Run
 
 1. **Clone the repository**
-   ```bash
+ 
    git clone https://github.com/<your-username>/online-food-ordering-system.git
    cd online-food-ordering-system
 Compile the program
 
-bash
-Copy code
+
 gcc online_food_ordering.c -o food_ordering
 Run the program
 
-bash
-Copy code
 ./food_ordering
 Choose your role
 
@@ -76,20 +71,18 @@ Choose your role
 
 2 → Login as an existing user
 
-3 → Admin login (Password: Rishik@Admin)
+3 → Admin login (Password: Eswar@Admin)
 
 4 → Exit
 
 🧾 Example Menu Output
-yaml
-Copy code
+
 ---- MENU ----
 101. Burger (Fast Food) - ₹120.00 | Stock: 15 | Rating: 4.5
 102. Pizza (Italian) - ₹250.00 | Stock: 10 | Rating: 4.7
 103. Fries (Snacks) - ₹90.00 | Stock: 20 | Rating: 4.2
 🛍️ Example Cart and Checkout
-sql
-Copy code
+
 -- CART --
 Burger x2 - ₹240.00
 Fries x1 - ₹90.00
